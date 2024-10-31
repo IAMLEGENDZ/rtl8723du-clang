@@ -34,7 +34,7 @@ If any of the packages above are not found check if your distro installs them li
 For all distros:
 ```bash
 git clone git://github.com/IAMLEGENDZ/rtl8723du-clang.git
-cd rtl8723du
+cd rtl8723du-clang
 make CC=clang LD=ld.lld
 sudo make install
 ```
@@ -49,7 +49,7 @@ sudo modprobe -v 8723du          #This loads the module
 
 When your kernel changes, then you need to do the following:
 ```bash
-cd ~/rtl8723du
+cd ~/rtl8723du-clang
 git pull
 make clean
 make CC=clang LD=ld.lld
@@ -62,7 +62,7 @@ Remember, this MUST be done whenever you get a new kernel - no exceptions.
 For all distros:
 ```bash
 git clone git://github.com/IAMLEGENDZ/rtl8723du-clang.git
-cd rtl8723du
+cd rtl8723du-clang
 make CC=clang LD=ld.lld
 sudo make sign-install
 ```
