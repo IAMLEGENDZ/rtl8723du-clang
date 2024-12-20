@@ -28,6 +28,10 @@ For **openSUSE**: Install necessary headers with
 ```bash
 sudo zypper install make clang kernel-devel kernel-default-devel git libopenssl-devel
 ```
+For **OpenMandriva**: You can install them with the following command
+```bash
+sudo dnf install kernel-headers kernel-desktop-devel cmake glibc-devel lib64cppdap lib64crypt-devel lib64elfutils-devel lib64lzma-devel lib64ncurses-devel lib64rhash0 lib64z-devel lib64zstd-devel libc6 make
+```
 If any of the packages above are not found check if your distro installs them like that.
 
 ##### Installation
