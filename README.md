@@ -8,7 +8,7 @@ This repository includes drivers for the following card:
 
 Realtek RTL8723DU
 
-Tested with Linux Kernel versions (6.8 to 6.12) and it's working.
+Tested with Linux Kernel versions (6.8 to 6.15) and it's working.
 
 ### Installation instruction
 ##### Requirements
